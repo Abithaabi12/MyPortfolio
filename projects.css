@@ -1,0 +1,88 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+html{    
+    font-size: 62.5%;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+  margin-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 9%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo {
+  font-size: 3rem;
+  color: red;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+nav{
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  font-size: 1.8rem;
+  color: white;
+  margin-left: 4rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active {
+  color: #b74b4b;
+  border-bottom: 3px solid #b74b4b;
+}
+.projects {
+  margin-top: 150px;
+  padding: 5rem 9%;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+.projects h2 {
+  font-size: 7rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #b74b4b;
+}
+.project-item {
+  margin-bottom: 2rem;
+}
+.project-item h3 {
+  font-size: 4rem;
+  color: #b74b4b;
+  margin-bottom: 1rem;
+}
+.project-item p {
+  font-size: 2.5rem;
+}
