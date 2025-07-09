@@ -121,8 +121,8 @@ span {
 
 .home-img {
     border-radius: 50%;
-    hieght:1000px;
-    width: 1000px;
+    hieght:500vh;
+    width: 500px;
 }
 
 .home-img img {
